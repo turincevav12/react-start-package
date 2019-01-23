@@ -1,0 +1,28 @@
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 29px;
+  grid-row-gap: 49px; }
+  .articles__item {
+    font-family: Open Sans;
+    font-style: normal;
+    line-height: normal; }
+    .articles__item span {
+      font-weight: normal;
+      font-size: 10px;
+      color: #C1C4CC; }
+    .articles__item h1 {
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+      color: #2C467F;
+      margin-top: 9px; }
+    .articles__item .info div {
+      display: inline-block; }
+    .articles__item .info__right {
+      float: right;
+      margin-top: 21px; }
+  .articles img {
+    width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

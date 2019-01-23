@@ -1,0 +1,40 @@
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 29px;
+  grid-row-gap: 49px;
+
+  &__item {
+    font-family: Open Sans;
+    font-style: normal;
+    line-height: normal;
+
+    & span {
+      font-weight: normal;
+      font-size: 10px;
+      color: #C1C4CC;
+    }
+
+    & h1 {
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+      color: #2C467F;
+      margin-top: 9px;
+    }
+
+    .info {
+      & div{
+        display: inline-block;
+      }
+      &__right {
+        float: right;
+        margin-top: 21px;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
