@@ -2,27 +2,81 @@
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-column-gap: 29px;
-  grid-row-gap: 49px; }
-  .articles__item {
-    font-family: Open Sans;
-    font-style: normal;
-    line-height: normal; }
-    .articles__item span {
-      font-weight: normal;
-      font-size: 10px;
-      color: #C1C4CC; }
-    .articles__item h1 {
-      font-weight: 600;
-      font-size: 18px;
-      letter-spacing: 0.05em;
-      color: #2C467F;
-      margin-top: 9px; }
-    .articles__item .info div {
-      display: inline-block; }
-    .articles__item .info__right {
-      float: right;
-      margin-top: 21px; }
+  grid-row-gap: 49px;
+  font-family: Open Sans;
+  font-style: normal;
+  line-height: normal; }
+  .articles__item span {
+    font-weight: normal;
+    font-size: 10px;
+    color: #C1C4CC; }
+  .articles__item h1 {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #2C467F;
+    margin-top: 9px; }
+  .articles__item .info div {
+    display: inline-block; }
+  .articles__item .info__right {
+    float: right;
+    margin-top: 21px; }
   .articles img {
     width: 100%; }
+
+.layouts {
+  background: #52607F;
+  margin-bottom: 30px;
+  height: 40px;
+  line-height: 40px; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.lodeMore {
+  background: #2C467F;
+  height: 45px;
+  margin-top: 71px;
+  border: 0;
+  padding: 1px 130px;
+  position: absolute;
+  color: #FFFFFF;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer; }
+  .lodeMore span {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF; }
+
+.item__info h1 {
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: 0.05em;
+  color: #2C467F; }
+.item__info span {
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000; }
+.item__info dl dt {
+  float: left;
+  padding: 5px;
+  width: 90px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #C1C4CC; }
+.item__info dl dd {
+  margin: 2px 0;
+  padding: 5px 0;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000; }
+
+@media (max-width: 800px) {
+  .articles {
+    grid-template-columns: repeat(1, auto); } }
 
 /*# sourceMappingURL=index.css.map */
