@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$openSans: 'Open Sans';
+
+body{
+  & * {
+    font-family: $openSans;
+  }
+}
+
 .articles {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-column-gap: 29px;
   grid-row-gap: 49px;
 
-  font-family: Open Sans;
+  font-family: $openSans;
   font-style: normal;
   line-height: normal;
 
@@ -70,6 +80,14 @@
 }
 
 .item{
+  &__loading{
+    position: absolute;
+    font-size: 42px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   &__info{
     h1{
       font-weight: bold;
@@ -102,6 +120,7 @@
     }
   }
 }
+
 
 @media ( max-width: 800px ) {
   .articles{
